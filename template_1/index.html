@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<title>Template Login</title>
+	</head>
+	<body>
+		<!-- http://bootsnipp.com/snippets/featured/register-page-design -->
+		<div class="container">
+			<div class="row main">
+				<div class="main-login main-center"> 		
+					<h5>Login em Mega City Um Sistema de Segurança!</h5>
+					<form class="" method="post" action="#">
+
+						<div class="form-group">
+							<label for="nome" class="cols-sm-2 control-label">Nome</label>
+							<div class="cols-sm-10">
+								<div class="input-group"><!--Essa classe input-group serve para agrupar o ícone com o input, através da propriedade "display: table". Se retirar, fica um embaixo do outro.-->	
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="nome" id="nome"  placeholder="Seu nome"/>
+								</div>	
+							</div>	
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Seu email"/>
+								</div>
+							</div>
+						</div>		
+
+						<div class="form-group">
+							<label for="usuario" class="cols-sm-2 control-label">Usuário</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="usuario" id="usuario"  placeholder="Seu usuário"/>
+								</div>
+							</div>
+						</div>	
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Senha</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="senha" id="senha"  placeholder="Enter your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirma_senha" class="cols-sm-2 control-label">Confirme a senha</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirma_senha" id="confirma_senha"  placeholder="Confirme a senha"/>
+								</div>
+							</div>
+						</div>
+						<div class="form-group ">
+							<a href="#" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>
+						</div>
+					</form>	
+				</div>
+			</div>	
+		</div>	
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
